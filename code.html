@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shripad Dahale Jewellers</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    body {
+        font-family: 'Oswald', sans-serif;
+        color: rgb(12, 11, 1);
+        margin: 0px;
+        padding: 0px;
+         
+    }
+    header::before{
+        /*background: url('img/d.jpg.gif');*/
+       background: url('https://images.unsplash.com/photo-1601121141418-c1caa10a2a0b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+          
+
+    }
+
+    .btn {
+        font-family: 'Oswald', sans-serif;
+        background-color: gray;
+        padding: 3px 42px;
+        margin: 3px 4px;
+        color: white;
+        cursor: pointer;
+
+        border-radius: 10px;
+
+    }
+
+    .btn :hover {
+        background-color: rgb(240, 240, 16);
+    }
+
+    .container {
+        margin: 106px 80px;
+        padding: 75px;
+        border: 2px solid white;
+        border-radius: 28px;
+        width: 33%;
+
+    }
+
+    .form-group input {
+        font-family: 'Oswald', sans-serif;
+        margin: 6px auto;
+        padding: 9px;
+        border: 2px solid;
+        text-align: center;
+        font-size: 21px;
+        border-radius: 28px;
+        display: block;
+        width: 71%;
+
+    }
+
+    .container h1 {
+        text-align: center;
+        color: whitesmoke;
+    }
+
+    .container button {
+        display: block;
+        width: 74%;
+        margin: 20px auto;
+
+    }
+
+    .left {
+        display: inline-block;
+
+        position: absolute;
+        left: 34px;
+        top: 20px;
+    }
+
+    .mid {
+
+
+        display: block;
+        margin: 20px auto;
+        width: 36%;
+
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        display: inline-block;
+
+    }
+
+    .left img {
+        width: 136px;
+        filter: invert(100%);
+    }
+
+    .left div {
+        text-align: center;
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 25px;
+    }
+
+    .navbar li a {
+        color: rgb(12, 11, 1);
+        text-decoration: none;
+        padding: -7.9px 23px;
+        margin: 12px;
+
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: gray;
+    }
+</style>
+
+<body>
+
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="img/bg.png.png" alt="">
+            <div>Shripad Dahale</div>
+
+
+
+
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active"> Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+
+        </div>
+        <div class="right">
+            <Button class="btn">Call us now</Button>
+            <Button class="btn">Order Now </Button>
+
+
+        </div>
+    </header>
+    <div class="container">
+        <h1>APPLY TRADEMARK IN INDIA</h1>
+        <form action="noaction .php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your locality">
+
+            </div>
+            <button class="btn">Submit</button>
+
+
+
+
+        </form>
+    </div>
+
+
+
+</body>
+
+</html>
